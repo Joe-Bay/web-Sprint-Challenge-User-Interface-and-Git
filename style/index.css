@@ -60,24 +60,28 @@ header{
     display:flex;
     justify-content: center;
     align-items:baseline;
-    border:1px solid red;
-}
 
-.logoContainer{
+}
+header img{
     display:flex;
+    justify-content:center;
+}
+.logoContainer{
+    margin-right:-10%;
+    padding-left: 6%;
 }
 nav{
     width:50%;
 }
 .links{
     display:flex;
-    justify-content: center;;
+    justify-content: center;
 }
 
 .links a{
     color:black;
   font-size: 1.2rem;
-  margin: 2%;
+  margin: 2.5%;
   text-decoration:none;
 }
 .mainImageContainer{
@@ -134,7 +138,16 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+@keyframes example{
+    from {background-color: currentColor;}
+    to {background-color: black;}
+}
+.box:hover{
+    animation-name: example;
+    animation-duration: 4s;
+    
 
+}
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -144,6 +157,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 #box1{
     background-color:teal;
