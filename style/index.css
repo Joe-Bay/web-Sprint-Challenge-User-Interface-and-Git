@@ -48,7 +48,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border:1px solid grey;
+    /*border:1px solid grey;*/
 }
 
 html, body {
@@ -60,6 +60,7 @@ header{
     display:flex;
     justify-content: center;
     align-items:baseline;
+    border:1px solid red;
 }
 
 .logoContainer{
@@ -70,13 +71,14 @@ nav{
 }
 .links{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;;
 }
 
 .links a{
     color:black;
   font-size: 1.2rem;
   margin: 2%;
+  text-decoration:none;
 }
 .mainImageContainer{
     display:flex;
@@ -206,7 +208,41 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
-.container .about-page{
-    border-bottom: 1px solid black;
+.aboutText{
+    border-bottom: 1px dotted black;
+}
+.section1{
+    display:flex;
+    height: 45vh;
+}
+.section2{
+    display:flex;
+    height: 45vh;
+}
+.mainImageSections{
+    width:50%;
+    margin:2%;
+    border-bottom: 1px dotted black;
+}
+.mainImageSections h2{
+    font-size: 1.5rem;
+    text-align:left;
+}
+.mainImageSections p{
+    text-align:left;
+    height: 8vh;
+}
+.mainImageSections img{
+    width:100%;
+}
+.mainImageSections a{
+    padding: .5%;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    color:black;
+    border-radius: 10px;
+    text-decoration:none;
+}
+.bottomText{
+    margin: 2.5%;
 }
