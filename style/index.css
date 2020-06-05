@@ -48,6 +48,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border:1px solid grey;
 }
 
 html, body {
@@ -204,4 +205,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container .about-page{
+    border-bottom: 1px solid black;
 }
